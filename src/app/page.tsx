@@ -10,7 +10,10 @@ import { Seta } from "@/components/Icones";
 import { produtos } from "@/data/produtos";
 import { detalhe } from "@/data/detalhes";
 
-import heroFoto from "@/assets/produtos/virginia-rosa-malte.webp";
+import heroFoto from "@/assets/editorial/emily-azul.webp";
+import emilyLaranja from "@/assets/editorial/emily-laranja.webp";
+import emilyRosa from "@/assets/editorial/emily-rosa.webp";
+import { BannerFoto } from "@/components/BannerFoto";
 import camilaLavanda from "@/assets/produtos/camila-lavanda.webp";
 import vicenciaAzul from "@/assets/produtos/vicencia-azul.webp";
 import mariaRosa from "@/assets/produtos/maria-rosa.webp";
@@ -40,12 +43,12 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full md:aspect-auto md:col-span-6 md:col-start-7 md:row-start-1">
             <Image
               src={heroFoto}
-              alt="Vestido Virgínia na cor Rosa Malte, fotografado em estúdio"
+              alt="Emily, criadora da TULUZI, de vestido azul com bordados florais"
               fill
               priority
               placeholder="blur"
               sizes="(min-width: 768px) 50vw, 100vw"
-              className="object-cover object-top md:[mask-image:linear-gradient(90deg,transparent_0%,#000_22%)]"
+              className="object-cover object-[50%_16%] md:[mask-image:linear-gradient(90deg,transparent_0%,#000_22%)]"
             />
             <div className="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-[#bfa29e] via-[#bfa29e]/70 to-transparent md:hidden" />
           </div>
@@ -166,6 +169,15 @@ export default function Home() {
       </section>
 
       {/* 05 — A MULHER TULUZI */}
+      {/* 05 — BANNER EMILY · LARANJA */}
+      <BannerFoto
+        img={emilyLaranja}
+        alt="Emily sentada em uma poltrona de vime, de vestido laranja com barrado bordado, ao lado de um jardim"
+        frase="Cada detalhe TULUZI importa."
+        lado="direita"
+        foco="object-[30%_55%] md:object-[50%_60%]"
+      />
+
       <section aria-labelledby="mulher-titulo" className="relative overflow-hidden border-y border-linha bg-papel px-4 py-20 md:px-10 md:py-28">
         <Flor tipo="rosa" giro={12} duracao={13} sizes="200px" className="absolute -right-7 -top-3 w-[72px] md:right-[5%] md:top-10 md:w-[140px]" />
         <div className="relative mx-auto max-w-[1400px]">
@@ -188,6 +200,15 @@ export default function Home() {
       </section>
 
       {/* 06 — DESTAQUE VISUAL */}
+      {/* 07 — BANNER EMILY · ROSA */}
+      <BannerFoto
+        img={emilyRosa}
+        alt="Emily deitada entre flores, de vestido rosa com bordados coloridos, iluminada pelo sol"
+        frase="Para dias que pedem flores."
+        lado="esquerda"
+        foco="object-[70%_45%] md:object-[50%_45%]"
+      />
+
       <section aria-labelledby="destaque-titulo" className="relative overflow-hidden px-4 py-24 md:px-10 md:py-32">
         <div className="relative mx-auto max-w-[1300px]">
           <Reveal className="mb-10 flex items-end justify-between gap-6 md:mb-14">
