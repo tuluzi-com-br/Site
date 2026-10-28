@@ -8,11 +8,8 @@ export const WHATSAPP_EXIBICAO = "+55 31 99808-9895";
 export const INSTAGRAM_HANDLE = "@tuluzi";
 export const INSTAGRAM_URL = "https://www.instagram.com/tuluzi/";
 
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "http://localhost:3000");
+/** Domínio oficial. Usado em sitemap, robots, links canônicos e imagens de compartilhamento. */
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.tuluzi.com.br";
 
 export const ASSINATURA = "Um jeito de viver que começa pelo vestir.";
 
