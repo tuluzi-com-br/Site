@@ -15,8 +15,8 @@ export const ASSINATURA = "Um jeito de viver que começa pelo vestir.";
 
 export const NAV = [
   { label: "Peças", href: "/pecas" },
-  { label: "Feito à mão", href: "/feito-a-mao" },
-  { label: "Emily", href: "/emily" },
+  { label: "Design autoral", href: "/design-autoral" },
+  { label: "Emilly", href: "/emilly" },
   { label: "Universo", href: "/universo" },
 ] as const;
 

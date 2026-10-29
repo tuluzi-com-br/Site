@@ -38,7 +38,7 @@ export function Header() {
 
       {/* Faixa superior */}
       <div className="rotulo flex h-9 items-center justify-center border-b border-linha bg-papel px-4 text-center text-[0.6rem] text-grafite md:text-[0.625rem]">
-        Feito à mão em Minas
+        Design autoral em Minas
         <span className="mx-3 inline-block h-px w-5 bg-cinza/60" aria-hidden="true" />
         Pequenas edições
       </div>

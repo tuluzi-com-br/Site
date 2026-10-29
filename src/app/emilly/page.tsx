@@ -8,12 +8,12 @@ import { Seta } from "@/components/Icones";
 import { FOTO_EMILY } from "@/data/emily";
 
 export const metadata: Metadata = {
-  title: "Emily",
-  description: "Um olhar transformado em marca. Conheça Emily, por trás da TULUZI.",
-  alternates: { canonical: "/emily" },
+  title: "Emilly",
+  description: "Um olhar transformado em marca. Conheça Emilly, por trás da TULUZI.",
+  alternates: { canonical: "/emilly" },
 };
 
-export default function Emily() {
+export default function Emilly() {
   return (
     <section className="relative overflow-hidden px-4 pb-24 pt-14 md:px-10 md:pb-36 md:pt-20">
       <div className="mx-auto grid max-w-[1300px] items-start gap-12 md:grid-cols-12 md:gap-10">
@@ -22,16 +22,16 @@ export default function Emily() {
             {FOTO_EMILY ? (
               <Image
                 src={FOTO_EMILY}
-                alt="Emily, criadora da TULUZI"
+                alt="Emilly, criadora da TULUZI, sorrindo com uma camélia branca na mão"
                 fill
                 priority
                 placeholder="blur"
                 sizes="(min-width: 768px) 40vw, 92vw"
-                className="object-cover"
+                className="object-cover object-[50%_28%]"
               />
             ) : (
               <div className="absolute inset-0 flex items-end bg-gradient-to-b from-rosa-claro to-[#dcc5bf] p-8" aria-hidden="true">
-                <p className="titulo text-[5rem] italic leading-none text-linho/90 md:text-[6.5rem]">Emily</p>
+                <p className="titulo text-[5rem] italic leading-none text-linho/90 md:text-[6.5rem]">Emilly</p>
               </div>
             )}
           </Reveal>
@@ -55,7 +55,7 @@ export default function Emily() {
             </Reveal>
             <Reveal><p>A TULUZI nasceu um pouco dessa forma de enxergar a vida.</p></Reveal>
             <Reveal><p>A roupa foi o nosso começo.</p></Reveal>
-            <Reveal><p className="titulo text-[1.25rem] italic leading-[1.5] text-tinta md:text-[1.4rem]">Eu sou Emily. E este é o universo que quero dividir com vocês.</p></Reveal>
+            <Reveal><p className="titulo text-[1.25rem] italic leading-[1.5] text-tinta md:text-[1.4rem]">Eu sou Emilly. E este é o universo que quero dividir com vocês.</p></Reveal>
           </div>
           <Reveal className="mt-12 flex flex-wrap gap-5 border-t border-linha pt-10">
             <Link href="/pecas" className="btn btn-tinta">Conheça as peças <Seta /></Link>

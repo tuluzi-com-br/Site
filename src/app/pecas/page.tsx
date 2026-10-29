@@ -6,7 +6,7 @@ import { produtos } from "@/data/produtos";
 
 export const metadata: Metadata = {
   title: "Peças",
-  description: "Vestidos TULUZI feitos à mão, em pequenas edições. Conheça cada peça, suas cores e detalhes.",
+  description: "Vestidos TULUZI de design autoral, em pequenas edições. Conheça cada peça, suas cores e detalhes.",
   alternates: { canonical: "/pecas" },
 };
 

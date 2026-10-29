@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const cores = p.variantes.map((v) => v.cor).join(", ");
   return {
     title: p.nome,
-    description: `${p.descricaoCurta}${cores ? ` Cores: ${cores}.` : ""} Peça feita à mão, em pequena edição.`,
+    description: `${p.descricaoCurta}${cores ? ` Cores: ${cores}.` : ""} Peça de design autoral, em pequena edição.`,
     alternates: { canonical: `/pecas/${p.slug}` },
     openGraph: {
       title: `${p.nome} | TULUZI`,

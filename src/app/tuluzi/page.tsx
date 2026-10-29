@@ -11,7 +11,7 @@ import virginia from "@/assets/produtos/virginia-verde-agua.webp";
 
 export const metadata: Metadata = {
   title: "A TULUZI",
-  description: "Moda feminina autoral, feita à mão em pequenas edições. Manifesto, filosofia e valores da TULUZI.",
+  description: "Moda feminina de design autoral, em pequenas edições. Manifesto, filosofia e valores da TULUZI.",
   alternates: { canonical: "/tuluzi" },
 };
 
@@ -25,7 +25,7 @@ export default function Tuluzi() {
     <>
       <Abertura rotulo="A TULUZI" titulo={<>Um jeito de viver que começa <em className="italic">pelo vestir.</em></>}>
         <p className="texto">
-          A TULUZI é uma marca brasileira de moda feminina autoral, com peças feitas à mão, produzidas em pequenas edições.
+          A TULUZI é uma marca brasileira de moda feminina, com peças de design autoral produzidas em pequenas edições.
         </p>
       </Abertura>
 
@@ -95,7 +95,7 @@ export default function Tuluzi() {
             <Reveal><Rotulo>Posicionamento</Rotulo></Reveal>
             <Reveal atraso={100}>
               <p className="titulo mt-10 text-[2rem] leading-snug md:text-[2.6rem]">
-                Moda feminina autoral. Peças feitas à mão, em pequenas edições, para mulheres que encontram beleza nos detalhes.
+                Moda feminina de design autoral. Peças em pequenas edições, para mulheres que encontram beleza nos detalhes.
               </p>
             </Reveal>
           </div>

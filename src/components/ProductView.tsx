@@ -198,7 +198,7 @@ export function ProductView({ produto }: { produto: ProdutoTuluzi }) {
           {/* H. Pequenas edições */}
           <p className="mt-6 flex items-start gap-3 text-[0.86rem] leading-relaxed text-grafite">
             <span className="mt-[0.55em] inline-block h-px w-5 shrink-0 bg-grafite" aria-hidden="true" />
-            Feita à mão, em pequena edição. Cada peça existe poucas vezes — por isso o atendimento é pessoal.
+            Design autoral, em pequena edição. Cada peça existe poucas vezes — por isso o atendimento é pessoal.
           </p>
 
           {/* D–E. Detalhes técnicos */}

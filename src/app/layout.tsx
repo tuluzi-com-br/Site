@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     template: "%s | TULUZI",
   },
   description:
-    "TULUZI é moda feminina autoral: peças feitas à mão, em pequenas edições, para mulheres que encontram beleza nos detalhes.",
+    "TULUZI é moda feminina de design autoral: peças em pequenas edições, para mulheres que encontram beleza nos detalhes.",
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: "TULUZI",
     title: "TULUZI — Um jeito de viver que começa pelo vestir",
-    description: "Peças feitas à mão, em pequenas edições, para mulheres que encontram beleza nos detalhes.",
+    description: "Peças de design autoral, em pequenas edições, para mulheres que encontram beleza nos detalhes.",
   },
   twitter: { card: "summary_large_image" },
   alternates: { canonical: "/" },

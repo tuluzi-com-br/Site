@@ -1,8 +1,5 @@
 import type { StaticImageData } from "next/image";
+import foto from "@/assets/editorial/emilly.webp";
 
-/**
- * Fotografia oficial da Emily (enviada pela marca).
- * Quando o arquivo chegar: salvar em src/assets/editorial/emily.webp,
- * importar aqui e substituir o `null`. Nenhuma outra imagem a representa.
- */
-export const FOTO_EMILY: StaticImageData | null = null;
+/** Fotografia oficial da Emilly (enviada pela marca), usada na página /emilly. */
+export const FOTO_EMILY: StaticImageData | null = foto;

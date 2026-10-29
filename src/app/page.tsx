@@ -43,7 +43,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full md:aspect-auto md:col-span-6 md:col-start-7 md:row-start-1">
             <Image
               src={heroFoto}
-              alt="Emily, criadora da TULUZI, de vestido azul com bordados florais"
+              alt="Emilly, criadora da TULUZI, de vestido azul com bordados florais"
               fill
               priority
               placeholder="blur"
@@ -63,7 +63,7 @@ export default function Home() {
               <span className="linha-titulo"><span style={{ ["--atraso" as string]: "320ms" }}>pelo <em className="italic">vestir.</em></span></span>
             </h1>
             <p className="mt-8 max-w-[26rem] text-[1rem] leading-[1.7] text-linho/95 md:mt-10 md:text-[1.05rem]">
-              Peças feitas à mão, em pequenas edições, para mulheres que encontram beleza nos detalhes.
+              Peças de design autoral, em pequenas edições, para mulheres que encontram beleza nos detalhes.
             </p>
             <div className="mt-9 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-10">
               <Link href="#pecas" className="btn btn-claro">
@@ -114,7 +114,7 @@ export default function Home() {
             <Reveal>
               <Rotulo className="text-grafite">Vestido Camila · Lavanda</Rotulo>
               <p className="titulo mt-6 max-w-lg text-[2rem] sm:text-[2.4rem] lg:text-[3rem]">
-                Feito à mão, <em className="italic">em pequenas edições.</em>
+                Design autoral, <em className="italic">em pequenas edições.</em>
               </p>
               <p className="texto mt-6 max-w-sm">Viscolinho, frente única com amarração e saia de babados três marias.</p>
               <Link href="/pecas/vestido-camila?cor=Lavanda" className="rotulo link-traco link-traco-fixo mt-9 inline-flex items-center gap-3 text-[0.68rem]">
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="mx-auto max-w-[1500px]">
           <div className="mb-12 flex flex-col gap-6 md:mb-16 md:flex-row md:items-end md:justify-between">
             <Reveal>
-              <Rotulo>Feito à mão</Rotulo>
+              <Rotulo>Design autoral</Rotulo>
               <h2 id="mao-titulo" className="titulo mt-5 text-[2rem] sm:text-[2.5rem] lg:text-[3.1rem]">
                 A beleza está <em className="italic">nos detalhes.</em>
               </h2>
@@ -161,7 +161,7 @@ export default function Home() {
           </div>
 
           <Reveal className="mt-14 flex justify-center md:mt-20">
-            <Link href="/feito-a-mao" className="btn btn-contorno">
+            <Link href="/design-autoral" className="btn btn-contorno">
               Ver todos os detalhes <Seta />
             </Link>
           </Reveal>
@@ -172,7 +172,7 @@ export default function Home() {
       {/* 05 — BANNER EMILY · LARANJA */}
       <BannerFoto
         img={emilyLaranja}
-        alt="Emily sentada em uma poltrona de vime, de vestido laranja com barrado bordado, ao lado de um jardim"
+        alt="Emilly sentada em uma poltrona de vime, de vestido laranja com barrado bordado, ao lado de um jardim"
         frase="Cada detalhe TULUZI importa."
         lado="direita"
         foco="object-[30%_55%] md:object-[50%_60%]"
@@ -203,7 +203,7 @@ export default function Home() {
       {/* 07 — BANNER EMILY · ROSA */}
       <BannerFoto
         img={emilyRosa}
-        alt="Emily deitada entre flores, de vestido rosa com bordados coloridos, iluminada pelo sol"
+        alt="Emilly deitada entre flores, de vestido rosa com bordados coloridos, iluminada pelo sol"
         frase="Para dias que pedem flores."
         lado="esquerda"
         foco="object-[70%_45%] md:object-[50%_45%]"

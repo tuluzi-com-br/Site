@@ -10,9 +10,9 @@ import { detalhe } from "@/data/detalhes";
 import vicencia from "@/assets/produtos/vicencia-azul.webp";
 
 export const metadata: Metadata = {
-  title: "Feito à mão",
+  title: "Design autoral",
   description: "Bordados, rendas e acabamentos que revelam o cuidado presente em cada criação TULUZI.",
-  alternates: { canonical: "/feito-a-mao" },
+  alternates: { canonical: "/design-autoral" },
 };
 
 const PILARES = [
@@ -25,7 +25,7 @@ const PILARES = [
 export default function FeitoAMao() {
   return (
     <>
-      <Abertura rotulo="Feito à mão" titulo={<>A beleza está <em className="italic">nos detalhes.</em></>}>
+      <Abertura rotulo="Design autoral" titulo={<>A beleza está <em className="italic">nos detalhes.</em></>}>
         <p className="texto">Bordados, rendas e acabamentos que revelam o cuidado presente em cada criação.</p>
       </Abertura>
 
@@ -78,7 +78,7 @@ export default function FeitoAMao() {
             <Flor tipo="vermelha" giro={-8} duracao={12} sizes="200px" className="absolute -top-20 right-0 w-[90px] md:w-[130px]" />
             <Reveal>
               <h2 className="titulo text-[2rem] md:text-[2.8rem]">Pequenas edições. <em className="italic">Grandes detalhes.</em></h2>
-              <p className="texto mt-6 max-w-md">Peças feitas à mão, em pequenas edições, nos tamanhos P, M e G.</p>
+              <p className="texto mt-6 max-w-md">Peças de design autoral, em pequenas edições, nos tamanhos P, M e G.</p>
               <Link href="/pecas" className="btn btn-tinta mt-10">Conheça as peças <Seta /></Link>
             </Reveal>
           </div>
